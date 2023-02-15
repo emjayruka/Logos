@@ -85,3 +85,25 @@ a {
 .E {
     rotate: -40deg;
 }
+
+.java-logo {
+    width: 350px;
+    height: 400px;
+    background-color: #f7e018;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 9%;
+    position: relative;
+}
+
+.js {
+    position: absolute;
+    left: 130px;
+    top: 80px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 170px;
+}
+
+.js-body {
+    background-color: black;
+}
