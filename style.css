@@ -106,4 +106,83 @@ a {
 
 .js-body {
     background-color: black;
+    position: relative;
+}
+
+.face-body{
+    position: relative;
+    background-color: #f1f3f4;
+}
+
+.face-logo {
+    width: 350px;
+    height: 350px;
+    background-color: #1877f1;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    position: absolute;
+    left: 490px;
+    top: 100px;
+}
+
+.f {
+    color: white;
+    font-size: 340px;
+    font-family:  sans-serif;
+    padding-top: 115px;
+}
+
+.benz-body{
+    background-color: #999999;
+    
+}
+
+.benz-logo {
+    width: 400px;
+    height: 400px;
+    border: 13px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+}
+
+.tri-1 {
+    width: 0;
+    height: 0;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 220px solid black;
+    position: absolute;
+    bottom: 194px;
+}
+
+.tri-2 {
+    width: 0;
+    height: 0;
+   border-top: 30px solid transparent;
+   border-bottom: 30px solid transparent;
+   border-right: 225px solid black;
+   rotate: -30deg;
+   position: absolute;
+   right: 170px;
+   bottom: 115px;
+}
+
+.tri-3 {
+    width: 0;
+    height: 0;
+    border-top: 30px solid transparent;
+   border-bottom: 30px solid transparent;
+   border-left: 205px solid black;
+   rotate: 30deg;
+   position: absolute;
+   left: 185px;
+   top: 230px;
 }
