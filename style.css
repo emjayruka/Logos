@@ -1,3 +1,39 @@
+.index-body {
+    background-color: #6e6e6e;
+}
+
+.hey {
+    color: #f1f3f4;
+    font-size: 80px;
+    text-align: center;
+}
+.words {
+    color: #f1f3f4;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+button {
+    background-color: #bbff3a;
+    color: #6e6e6e;
+    width: 100px;
+    height: 30px;
+    border: 2px solid #bbff3a;
+    box-shadow: 2px 2px 2px rgb(54, 53, 53);
+    border-radius: 7px;
+}
+
+.click {
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+}
+a {
+    text-decoration: none;
+}
+
+
 .main-logo {
     width: 500px;
     height: 350px;
