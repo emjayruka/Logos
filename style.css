@@ -1,0 +1,23 @@
+.main-logo {
+    width: 500px;
+    height: 350px;
+    background-color: red;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 450px;
+    top: 150px;
+}
+
+body {
+    background-color: black;
+    position: relative;
+}
+
+.triangle {
+    border-top: 90px solid transparent;
+    border-left: 120px solid white;
+    border-bottom: 90px solid transparent;
+}
